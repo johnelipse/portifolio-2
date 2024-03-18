@@ -28,7 +28,8 @@ a {
   font-size: 33px;
 }
 .introduction .name-card p {
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: lighter;
 }
 .introduction .name-card .icons {
   display: flex;
@@ -130,6 +131,7 @@ a {
   color: white;
 }
 .about-me h6 {
+  font-size: 12px;
   font-weight: lighter;
 }
 .about-me .about {
@@ -223,6 +225,7 @@ a {
 .skills .section-paragraph {
   font-size: 14px;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   font-weight: lighter;
 }
 .skills .skills-container {
@@ -322,6 +325,9 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+.projects-done .projects-container .project-card .project-title .title a {
+  color: white;
+}
 .projects-done .projects-container .project-card .project-title .title h3 {
   font-size: 16px;
 }
@@ -362,6 +368,10 @@ a {
   .projects-done .section-heading {
     text-align: center;
     padding-bottom: 2rem;
+  }
+  .projects-done .section-heading p {
+    margin-top: 0.3rem;
+    font-size: 14px;
   }
   .projects-done .projects-container {
     display: grid;

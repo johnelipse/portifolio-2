@@ -1,0 +1,114 @@
+.introduction {
+  padding: 0rem 3rem;
+  padding-top: 2rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  .name-card {
+    h1 {
+      font-weight: bolder;
+      font-size: 33px;
+    }
+    p {
+      font-size: 10px;
+    }
+    color: whitesmoke;
+    .icons {
+      display: flex;
+      gap: 0.3rem;
+      margin-top: 1rem;
+      .insta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(255, 0, 0, 0.645);
+      }
+      .facebook {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: blue;
+      }
+      .bxl-whatsapp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #25d366;
+      }
+      .bx {
+        border: 0.3px solid gray;
+        padding: 0.3rem;
+        font-size: 1rem;
+        border-radius: 50%;
+      }
+    }
+  }
+.image-card{
+  img{
+    width: 20rem;
+    height: auto;
+    object-fit: cover;
+  }
+}
+}
+@media(max-width:360px){
+  .introduction {
+    padding: 0rem 1rem;
+    width: 100%;
+    padding-top: 2rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    .name-card {
+      h1 {
+        font-weight: bolder;
+        font-size: 25px;
+      }
+      p {
+        font-size: 10px;
+      }
+      color: whitesmoke;
+      .icons {
+        display: flex;
+        gap: 0.3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        .insta {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: rgba(255, 0, 0, 0.645);
+        }
+        .facebook {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: blue;
+        }
+        .bxl-whatsapp {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #25d366;
+        }
+        .bx {
+          border: 0.3px solid gray;
+          padding: 0.3rem;
+          font-size: 0.5rem;
+          border-radius: 50%;
+        }
+      }
+    }
+  .image-card{
+    img{
+      width: 6rem;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  }  
+}

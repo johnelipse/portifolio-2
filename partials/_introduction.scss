@@ -1,10 +1,10 @@
 .introduction {
   padding: 0rem 3rem;
-  padding-top: 2rem;
-  background-color: black;
+  padding-top: 1rem;
+  background-color: $primary-color;
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 0rem;
   justify-content: center;
   .name-card {
     h1 {
@@ -47,7 +47,7 @@
   }
 .image-card{
   img{
-    width: 20rem;
+    width: 20em;
     height: auto;
     object-fit: cover;
   }
@@ -61,7 +61,7 @@
     background-color: black;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0rem;
     justify-content: center;
     .name-card {
       h1 {
@@ -105,7 +105,7 @@
     }
   .image-card{
     img{
-      width: 6rem;
+      width: 7rem;
       height: auto;
       object-fit: cover;
     }
